@@ -123,7 +123,7 @@ const useStyles = makeStyles(theme => ({
   
 }));
 
-export default function VisaTime() {
+export default function Upload() {
   const classes = useStyles();
 
   return (

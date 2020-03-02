@@ -79,6 +79,7 @@ const useStyles = makeStyles(theme => ({
     alignContent: 'center',
     alignItems: 'center',
     fontWeight: 600,
+    
   },
   
   form: {
@@ -105,7 +106,7 @@ const useStyles = makeStyles(theme => ({
     paddingRight: 0,
     paddingLeft: 0,
     transform: "translate(-50%, -50%)",
-  },
+    },
   numtwo: {
     width: 300,
     position: "absolute",
@@ -151,7 +152,7 @@ export default function VisaTime() {
           <form className={classes.form} noValidate>
               
               <Grid item xs={12} className={classes.num}>
-                <Grid item style={{color: 'white', padding: 15,  backgroundColor: '#2c2c2c', borderRadius: 10, height:'25vh'}}>
+                <Grid item style={{color: 'white', padding: 15,  backgroundColor: '#2c2c2c', borderRadius: 10, height:'calc(190px + 2vw)', border: '0.05rem solid rgb(234, 205, 128)'}}>
                     <Grid item style={{ float: 'right', textAlign: "justify", fontSize: 'calc(18px + .3vw)',}}>
                     <p>
                         موضوع:
